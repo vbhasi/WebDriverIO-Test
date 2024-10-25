@@ -10,26 +10,26 @@ describe('Status Code Page Tests', () => {
         await StatusCodesPage.statusListTitle.waitForExist()
         browser.back()
         await StatusCodesPage.status200.click()
-        await browser.pause(5000)
+        await browser.pause(4000)
 
         browser.back()
 
         await StatusCodesPage.status301.click()
-        await browser.pause(5000)
+        await browser.pause(4000)
 
         browser.back()
 
         await StatusCodesPage.status404.click()
-        await browser.pause(5000)
+        await browser.pause(4000)
 
         browser.back()
 
         await StatusCodesPage.status500.click()
-        await browser.pause(5000)
+        await browser.pause(4000)
 
         browser.back()
     
-await browser.pause(20000)
+await browser.pause(10000)
     });
 })
 

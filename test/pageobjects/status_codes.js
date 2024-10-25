@@ -31,6 +31,13 @@ get status404(){
 get status500(){
     return $("//a[normalize-space()='500']");
 }
+get status500(){
+    return $("//a[normalize-space()='edit']");
+}
+get status500(){
+    return $("//a[normalize-space()='edit']");
+}
+
 
     open () {
         return super.open('status_codes');

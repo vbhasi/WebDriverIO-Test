@@ -11,6 +11,6 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js",
-    "wdio-spec": "wdio run ./wdio.conf.js --spec '/specs/saveScreenrecording.test.js'"
+    "wdio-spec": "wdio run ./wdio.conf.js --spec '/specs/tables.test.js'"
   }
 }
